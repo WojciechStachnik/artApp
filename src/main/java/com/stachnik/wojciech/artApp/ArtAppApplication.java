@@ -1,0 +1,12 @@
+package com.stachnik.wojciech.artApp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ArtAppApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ArtAppApplication.class, args);
+	}
+}
