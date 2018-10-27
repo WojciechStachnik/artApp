@@ -15,12 +15,17 @@ public class Article {
 
     private String category;
 
+
     public String getTitle() {
         return title;
     }
 
     public void setTitle(String title) {
         this.title = title;
+    }
+
+    public int getArticleId() {
+        return articleId;
     }
 
     public String getCategory() {
